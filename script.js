@@ -27,9 +27,9 @@ for (let student of students) {
     average = average.toFixed(2)
     
     if (result) {
-        alert(`A média do aluno(a) ${student.name} é ${average}.\n Parabéns, ${student.name}! Você foi aprovado(a) no concurso.`)
+        alert(`A média do(a) aluno(a) ${student.name} é ${average}.\n Parabéns, ${student.name}! Você foi aprovado(a) no concurso.`)
     } else {
-        alert(`A média do aluno(a) ${student.name} é ${average}.S\n Não foi dessa vez, ${student.name}. Tente novamente.`)
+        alert(`A média do(a) aluno(a) ${student.name} é ${average}.\n Não foi dessa vez, ${student.name}. Tente novamente.`)
     }
 }
     
